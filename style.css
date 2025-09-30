@@ -36,8 +36,13 @@ p{
 }
 .trans{
     /* background: linear-gradient(143deg, #4d26db, #3c72af); */
-    background: linear-gradient(143deg, #445f6b, #3b1a6d);
+    /* background: linear-gradient(143deg, #445f6b, #3b1a6d); */
     padding: 45px;
+    color: black;
+    background-color: white;
+    /* background: linear-gradient(143deg, #4d26db, #3c72af); */
+    /* background: linear-gradient(143deg, #3d819f69, #3b1a6d); */
+    /* padding: 45px; */
 }
 .trans li{
     font-size: 2rem;
