@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <h1>Transitions</h1>
+        <div class="st">
+            <ul> 
+                <h2> <li>What are transitions?</li></h2>
+            </ul>
+            <p>A transition is the smooth and gradual change of something from one state to another over time.
+                It makes changes look natural instead of sudden.Conversion of an element from one state to another with smooth effects                
+            </p>
+        </div>
+        
+        <div class="st">
+            <ul>
+
+                <h2><li>Types of Transitions: </li></h2>
+            </ul>
+            <ul>
+
+            </ul>
+        </div>
+        <div class="trans">
+            <ol>
+                <h3><li>Transition Property</li></h3>
+                <p>Defines which CSS property will go under transition</p>
+                <div class="codebox">
+                    .tpbox1{ <br>
+                        transition: background-color; <br>
+                    } <br>
+                    .tpbox1:hover{ <br>
+                        background-color: #bb3a7f; <br>
+                        color: wheat; <br>
+                    } <br>
+                    .tpbox3{ <br>
+                        transition: font-size; <br>
+                    } <br>
+                    .tpbox3:hover{ <br>
+                        font-size: 2.3rem; <br>
+                    } <br>
+                </div>
+                <div class="tpboxes">
+                    <div class="tpbox tpbox1">Background Changes</div>
+                    <div class="tpbox tpbox2">Height & <br> width Increases</div>
+                    <div class="tpbox tpbox3">Text Transform</div>
+                    <div class="tpbox tpbox4">Opacity</div>
+                </div>
+
+                <h3><li>Transition Duration</li></h3>
+                <p>This property defines that for how much time will our transition last </p>
+                <div class="codebox">
+                    .tdbox1{ <br>
+                        transition-property: background-color color;  <br>
+                        transition-duration: 0.5s; <br>
+                    } <br>
+                    .tdbox1:hover{ <br>
+                        background-color: #327abd; <br>
+                        color: azure; <br>
+                    }
+                </div>
+                <div class="tdboxes">
+                    <div class="tdbox tdbox1">Hover <br> 0.5 Seconds</div>
+                    <div class="tdbox tdbox2">Hover <br> 1 Seconds</div>
+                    <div class="tdbox tdbox3">Hover <br> 2 Seconds</div>
+                    <div class="tdbox tdbox4">Hover <br> 3 Seconds</div>
+                </div>
+
+                <h3><li>Transition Timing Function</li></h3>
+                <p>Defines how the transition progresses over time</p>
+                <div class="codebox">
+                    .ttfbox2{<br>
+                        transition: width ease-in 2s;<br>
+                    }<br>
+                    .ttfbox2:hover{<br>
+                        width: 500px;<br>
+                    }<br>
+                </div>
+                <div class="ttfboxes">
+                    <div class="ttfbox ttfbox1">Ease</div>
+                    <div class="ttfbox ttfbox2">Ease-in</div>
+                    <div class="ttfbox ttfbox3">Ease-out</div>
+                    <div class="ttfbox ttfbox4">Ease-in-out</div>
+                    
+                </div>
+            </ol>
+            </div>
+    </div>
+</body>
+</html>
