@@ -24,6 +24,13 @@
             <ul>
 
                 <h2><li>Types of Transitions: </li></h2>
+                <ol>
+                    <li>Transition Property</li>
+                    <li>Transition Duration</li>
+                    <li>Transition Timing Function</li>
+                    <li>Transition Delay</li>
+                    <li>Combination Of Transition Properties</li>
+                </ol>
             </ul>
             <ul>
 
@@ -93,9 +100,40 @@
                     
                 <h3><li>Transition Delay</li></h3>
                 <p>Defines the wait time before the transition starts</p>
+                <div class="codebox">
+                    .tdebox2{<br>
+                        transition-duration: 2s;<br>
+                        transition-delay: 2s;<br>
+                        transition: transform background-color ease-in-out ;<br>
+                    }<br>
+                    .tdebox2:hover{<br>
+                        transform: rotateY(90deg);<br>
+                        background-color: rgb(0, 152, 152);<br>
+                    }
+                </div>
                 <div class="tdeboxes">
-                    <div class="tdebox1">Hover <br> For 2s</div>
-                    <div class="tdebox2">Hover <br> For 3s</div>
+                    <div class="tdebox tdebox1">Hover <br> For 1s</div>
+                    <div class="tdebox tdebox2">Hover <br> For 2s</div>
+                </div>
+
+                <h3><li>Transform</li></h3>
+                <div class="codebox">
+                    .combbox4{<br>
+                        transition: transform background-color color ease-out;<br>
+                        transition-duration: 2s;<br>
+                    }<br>
+                    .combbox4:hover{<br>
+                        transform:translate3d(42px, -42px, -65px) scale(1.1) skew(20deg) rotate(180deg);<br>
+                        background-color: #327abd;<br>
+                        color: aliceblue;<br>
+                    }
+                </div>
+                <p>You can combine all in combined form</p>
+                <div class="combboxes">
+                    <div class="combbox combbox1">Rotate</div>
+                    <div class="combbox combbox2">Skew</div>
+                    <div class="combbox combbox3">Translate</div>
+                    <div class="combbox combbox4">All combined</div>                    
                 </div>
             </ol>
             </div>
