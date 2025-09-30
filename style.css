@@ -35,7 +35,8 @@ p{
     margin: 23px;
 }
 .trans{
-    background: linear-gradient(143deg, #4d26db, #3c72af);
+    /* background: linear-gradient(143deg, #4d26db, #3c72af); */
+    background: linear-gradient(143deg, #445f6b, #3b1a6d);
     padding: 45px;
 }
 .trans li{
