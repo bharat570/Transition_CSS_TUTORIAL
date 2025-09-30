@@ -6,6 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transitions</title>
     <link rel="stylesheet" href="style.css">
+
+
+    <style>
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    color: #222;
+    overflow-x: hidden;
+}
+
+/* Main container */
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0a3d62;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: #1a5276;
+    margin: 15px 0;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2rem;
+    margin: 15px 0 25px;
+    color: #444;
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px 40px;
+}
+
+ul li, ol li {
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+
+/* Code blocks */
+.codebox {
+    border-radius: 12px;
+    background: #f7f9fa;
+    border-left: 6px solid #2980b9;
+    padding: 18px 25px;
+    margin: 20px 0;
+    color: #2c3e50;
+    font-family: "Courier New", monospace;
+    font-size: 0.95rem;
+    overflow-x: auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Section wrapper */
+.trans {
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Reusable box styling */
+.tpboxes, .tdboxes, .ttfboxes, .tdeboxes, .combboxes {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 2px dashed #2980b9;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 15px;
+    background: #f0f8ff;
+}
+
+.tpbox, .tdbox, .ttfbox, .tdebox, .combbox {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 140px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    /* transition: all 0.3s ease; */
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.12);
+}
+
+/* Unique color schemes */
+.tpbox { background: #16a085; }
+.tdbox { background: #27ae60; }
+.ttfbox { background: #2980b9; }
+.tdebox { background: #8e44ad; }
+.combbox { background: #d35400; }
+
+/* Hover glow effect */
+.tpbox:hover, .tdbox:hover, .ttfbox:hover, .tdebox:hover, .combbox:hover {
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.18);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    h1 { font-size: 2.5rem; }
+    .tpbox, .tdbox, .ttfbox, .tdebox, .combbox {
+        width: 160px;
+        height: 120px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body { font-size: 0.9rem; }
+    h1 { font-size: 2rem; }
+    .tpboxes, .tdboxes, .ttfboxes, .tdeboxes, .combboxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tpbox, .tdbox, .ttfbox, .tdebox, .combbox {
+        width: 90%;
+        height: auto;
+        padding: 25px;
+    }
+}
+
+
+    </style>
+
+
+
+
+
+
+
+
 </head>
 <body>
     <div class="main">
@@ -117,6 +272,7 @@
                 </div>
 
                 <h3><li>Transform</li></h3>
+                <p>Transform Poperties and You can combine all in combined form</p>
                 <div class="codebox">
                     .combbox4{<br>
                         transition: transform background-color color ease-out;<br>
@@ -128,7 +284,6 @@
                         color: aliceblue;<br>
                     }
                 </div>
-                <p>You can combine all in combined form</p>
                 <div class="combboxes">
                     <div class="combbox combbox1">Rotate</div>
                     <div class="combbox combbox2">Skew</div>
