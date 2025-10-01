@@ -89,8 +89,8 @@ ul li, ol li {
 /* Reusable box styling */
 .tpboxes, .tdboxes, .ttfboxes, .tdeboxes, .combboxes {
     /* display: flex; */
-    flex-wrap: wrap;
-    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
     justify-content: center;
     border: 2px dashed #2980b9;
     margin: 25px 0;
@@ -178,13 +178,13 @@ ul li, ol li {
         <div class="st">
             <ul>
 
-                <h2><li>Types of Transitions: </li></h2>
+                <h2><li>Features of Transitions: </li></h2>
                 <ol>
                     <li>Transition Property</li>
                     <li>Transition Duration</li>
                     <li>Transition Timing Function</li>
                     <li>Transition Delay</li>
-                    <li>Combination Of Transition Properties</li>
+                    <li>Tranforms</li>
                 </ol>
             </ul>
             <ul>
@@ -197,7 +197,7 @@ ul li, ol li {
                 <p>Defines which CSS property will go under transition</p>
                 <div class="codebox">
                     .tpbox1{ <br>
-                        transition: background-color; <br>
+                        transition: background-color color;  <br>
                     } <br>
                     .tpbox1:hover{ <br>
                         background-color: #bb3a7f; <br>
@@ -279,7 +279,7 @@ ul li, ol li {
                         transition-duration: 2s;<br>
                     }<br>
                     .combbox4:hover{<br>
-                        transform:translate3d(42px, -42px, -65px) scale(1.1) skew(20deg) rotate(180deg);<br>
+                        transform:translate3d(42px, -42px, -65px) scale(1.1) skew(20deg) rotate(90deg);<br>
                         background-color: #327abd;<br>
                         color: aliceblue;<br>
                     }
