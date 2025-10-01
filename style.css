@@ -203,6 +203,13 @@ p{
 .ttfbox4:hover{
     width: 600px;
 }
+.ttfbox5{
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
+}
+.ttfbox5:hover{
+    width: 600px;
+}
 /* TDE */
 .tdeboxes{
     display: flex;
