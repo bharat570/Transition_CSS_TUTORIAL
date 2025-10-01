@@ -172,6 +172,8 @@ ul li, ol li {
             </ul>
             <p>A transition is the smooth and gradual change of something from one state to another over time.
                 It makes changes look natural instead of sudden.Conversion of an element from one state to another with smooth effects                
+            <br>
+            Transitions enable you to define the transition between two states of an element. Different states may be defined using pseudo-classes like <b>:hover or :active</b> or dynamically set using JavaScript.
             </p>
         </div>
         
@@ -275,7 +277,7 @@ ul li, ol li {
                 <p>Transform Poperties and You can combine all in combined form</p>
                 <div class="codebox">
                     .combbox4{<br>
-                        transition: transform background-color color ease-out 2s;<br>
+                        transition: all 2s ease-out;<br>
                     }<br>
                     .combbox4:hover{<br>
                         transform:translate3d(42px, -42px, -65px) scale(1.1) skew(20deg) rotate(90deg);<br>
