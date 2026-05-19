@@ -1,0 +1,312 @@
+.codebox{
+    border-radius: 12px;
+    background: linear-gradient(160deg, #ffffff, #407d479c);
+    border: 2px solid #bd8822;
+    padding: 23px;
+    margin: 18px 73px;
+    background-color: #ffffff;
+    color: rgb(0 0 0);
+    font-family: system-ui;
+    font-size: 1rem;
+}
+.main{
+    /* background: linear-gradient(291deg, #266f97, #010101);; */
+    background: linear-gradient(291deg, #ffffff, #bbd1cc);
+}
+.st ol{
+    margin: 24px 37px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+ul{
+    font-size: 1.6rem;
+    margin: 23px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 29px 44px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.st{
+    margin: 23px;
+}
+.trans{
+    /* background: linear-gradient(143deg, #4d26db, #3c72af); */
+    /* background: linear-gradient(143deg, #445f6b, #3b1a6d); */
+    padding: 45px;
+    color: black;
+    background-color: white;
+    /* background: linear-gradient(143deg, #4d26db, #3c72af); */
+    /* background: linear-gradient(143deg, #3d819f69, #3b1a6d); */
+    /* padding: 45px; */
+}
+.trans li{
+    font-size: 2rem;
+    margin-left: 34px;
+}
+/* TP */
+.tpboxes{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid skyblue; */
+    /* border: 2px solid #0000ff; */
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+}
+.tpbox{
+    font-size: 1.3rem;
+    align-content: center;
+    align-items: center;
+    width: 182px;
+    height: 159px;
+    border-radius: 23px;
+    /* background-color: #24b69a; */
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.tpbox1{
+    transition: background-color;
+}
+.tpbox1:hover{
+    background-color: #bb3a7f;
+    color: wheat;
+}
+.tpbox2{
+    transition: transform;
+}
+.tpbox2:hover{
+    transform: scale(1.13);
+}
+.tpbox3{
+    transition: font-size;
+}
+.tpbox3:hover{
+    font-size: 2.3rem;
+}
+.tpbox4{
+    transition: background-color;
+}
+.tpbox4:hover{
+    background-color:  #8e75ac5a;;
+}
+/* .TD */
+.tdboxes{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid skyblue; */
+    border: 2px solid #0000ff;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+}
+.tdbox{
+    font-size: 1.3rem;
+    align-content: center;
+    align-items: center;
+    width: 182px;
+    height: 159px;
+    border-radius: 23px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.tdbox1{
+    transition-property: background-color color;
+    transition-duration: 0.5s;
+}
+.tdbox1:hover{
+    background-color: #327abd;
+    color: azure;
+}
+.tdbox2{
+    transition-property: background-color color;
+    transition-duration: 1s;
+}
+.tdbox2:hover{
+    background-color: #327abd;
+    color: azure;
+}
+.tdbox3{
+    transition-property: background-color color;
+    transition-duration: 2s;
+}
+.tdbox3:hover{
+    background-color: #327abd;color: azure;
+}
+.tdbox4{
+    transition-property: background-color color;
+    transition-duration: 3s;
+}
+.tdbox4:hover{
+    background-color: #327abd;color: azure;
+}
+/* TTF */
+.ttfboxes{
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* border: 2px solid skyblue; */
+    border: 2px solid #0000ff;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+}
+.ttfbox{
+    margin: 17px;
+    font-size: 1.5rem;
+    align-content: center;
+    align-items: center;
+    width: 182px;
+    height: 129px;
+    border-radius: 23px;
+    /* background-color: #85d2fc; */
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.ttfbox1{
+    transition: transform ease 3.5s;
+}
+.ttfbox1:hover{
+    transform: translateX(300px);
+}
+.ttfbox2{
+    transition: width ease-in 2s;
+}
+.ttfbox2:hover{
+    width: 500px;
+}
+.ttfbox2{
+    transition: width ease-in 2s;
+}
+.ttfbox2:hover{
+    width: 500px;
+}
+.ttfbox3{
+    transition: width ease-out 2s;
+}
+.ttfbox3:hover{
+    width: 500px;
+}
+.ttfbox4{
+    transition: width ease-in-out 2s;
+}
+.ttfbox4:hover{
+    width: 600px;
+}
+.ttfbox5{
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
+}
+.ttfbox5:hover{
+    width: 600px;
+}
+/* TDE */
+.tdeboxes{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid skyblue; */
+    border: 2px solid #0000ff;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+}
+.tdebox{
+    margin: 17px;
+    font-size: 1.5rem;
+    align-content: center;
+    align-items: center;
+    width: 182px;
+    height: 129px;
+    border-radius: 23px;
+    /* background-color: #85d2fc; */
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.tdebox1{
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition: transform background-color ease-in-out ;
+}
+.tdebox1:hover{
+    transform: scale(1.12);
+    background-color: rgb(0, 152, 152);
+}
+.tdebox2{
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition: transform background-color ease-in-out ;
+}
+.tdebox2:hover{
+    transform: rotateY(90deg);
+    background-color: rgb(0, 152, 152);
+}
+/* comb */
+    .combboxes{
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 2px solid skyblue; */
+        border: 2px solid #0000ff;
+        margin: 34px;
+        padding: 23px;
+        border-radius: 23px;
+    }
+    .combbox{
+        margin: 17px;
+        font-size: 1.5rem;
+        align-content: center;
+        align-items: center;
+        width: 182px;
+        height: 129px;
+        border-radius: 23px;
+        /* background-color: #85d2fc; */
+        text-align: center;
+        color: black;
+        cursor: pointer;
+    }
+    .combbox1{
+        transition: transform background-color color ease-out ;
+        transition-duration: 2s;
+    }
+    .combbox1:hover{
+        transform: rotate(30deg);
+        background-color: #327abd;
+        color: aliceblue;
+    }
+    .combbox2{
+        transition: transform background-color color ease-out;
+        transition-duration: 2s;
+    }
+    .combbox2:hover{
+        transform: skew(30deg);
+        background-color: #327abd;
+        color: aliceblue;
+    }
+    .combbox3{
+        transition: transform background-color color ease-out;
+        transition-duration: 2s;
+    }
+    .combbox3:hover{
+        transform:translate3d(42px, -62px, -135px);
+        background-color: #327abd;
+        color: aliceblue;
+    }
+    .combbox4{
+        transition: all 2s ease-out;
+        /* transition-duration: 2s; */
+    }
+    .combbox4:hover{
+        transform:translate3d(42px, -42px, -65px) scale(1.1) skew(20deg) rotate(90deg);
+        background-color: #327abd;
+        color: aliceblue;
+    }
